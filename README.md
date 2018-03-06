@@ -53,3 +53,9 @@ From *The Count of Monte Cristo*
 * “Father, you and Madame de Villefort remained prostrate at noon.
 * “How so?” said Monte Cristo looked at the piano, accompanying themselves, each offering equal securities.
 * Asked himself—— repeated Monte Cristo serves occasionally on the formalities.
+
+Sources:
+https://nlp.stanford.edu/IR-book/html/htmledition/markov-chains-1.html
+https://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/Chapter11.pdf
+http://blog.javascriptroom.com/2013/01/21/markov-chains/
+
