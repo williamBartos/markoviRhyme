@@ -4,9 +4,9 @@ A markov chain generator to create rhyming sentences using Markovify and NLTK
 ## What is a Markov Chain?
 A Markov chain is a stochastic process that describes a set of states. The process begins at a starting state, and steps from one state to the next via random choices. The Markov Property is the key this process - it states that the probability of transitioning to the next state relies solely on the current state and time elapsed:
 
-<center> *∀i∀j, Pij ∈ [0,1]*, </center>
+## <center> *∀i∀j, Pij ∈ [0,1]* </center>
+ Where i is the current state, j is the next state, and Pij represents the transition probability from i to j. </center>
 
-<center> Where i is the current state, j is the next state, and Pij represents the transition probability from i to j. </center>
 
 Markov Chains can be used to generate new sentences from a corpus of existing text. From this corpus a model is generated. The model is represented as a hashmap of a hashmap, wherin the outer map represents every possible state in the corpus, and the inner map represents the possibilities from that state to the next state. To generate a new sentence, a starting state is chosen from the model. The algorithm will then begin stepping from this beginning state, until an ending state is reached. The step function of the model will randomly choose it's next state from its reachable states.
 
