@@ -4,9 +4,9 @@ A markov chain generator to create rhyming sentences using Markovify and NLTK
 ## What is a Markov Chain?
 A Markov chain is a stochastic process that describes a set of states. The process begins at a starting state, and steps from one state to the next via random choices. The Markov Property is the key this process - it states that the probability of transitioning to the next state relies solely on the current state and time elapsed:
 
-∀i∀j, Pij ∈ [0,1]
+* ∀i∀j, Pij ∈ [0,1]
 
-Where i is the current state, j is the next state, and Pij represents the transition probability from i to j. </center>
+* Where i is the current state, j is the next state, and Pij represents the transition probability from i to j. </center>
  
 
 
@@ -45,3 +45,11 @@ The simplified algorithm works as follows:
 * Build a sentence from the forward model and choose the last word as the rhyming word
 * Build a reverse sentence with the rhyming word as the seed word
 
+
+## Example Rhyme
+
+From *The Count of Monte Cristo*
+* The Apparition as the jeweller returned to you through me; the Marquis de Saint- Méran died as soon.
+* “Father, you and Madame de Villefort remained prostrate at noon.
+* “How so?” said Monte Cristo looked at the piano, accompanying themselves, each offering equal securities.
+* Asked himself—— repeated Monte Cristo serves occasionally on the formalities.
